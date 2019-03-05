@@ -1,0 +1,43 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+header.startup {
+ 	background-color: #DCDCDC;
+    background-image:url("TFCC.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+	height: 100%;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn {
+	background-color: #451CFF;
+	text-transform: uppercase;
+	font-style: bold;
+	margin-top: 700px;
+}
+
+.btn:hover {
+	background-color: #CCE9FB;
+	color: black;
+	font-weight: bold;
+	border-width: 5px;
+	border-color: #451CFF;
+}
